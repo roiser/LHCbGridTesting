@@ -1,7 +1,7 @@
 =============
 == General ==
 =============
-
+ 
 This package provides a tests for the grid tools used with the LHCb experiment. The individual tests are located in the directory "./tests/<package>" and are written in python.unittest style.
 
 ====================
