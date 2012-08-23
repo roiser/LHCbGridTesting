@@ -1,0 +1,41 @@
+=============
+== General ==
+=============
+
+This package provides a tests for the grid tools used with the LHCb experiment. The individual tests are located in the directory "./tests/<package>" and are written in python.unittest style.
+
+====================
+== Invoking tests ==
+====================
+
+Tests can be invoked in two styles, either each file can be individually run via python.unittest, e.g. from the root directory run
+
+_________________________________________________________________________________
+
+python tests/castor/test_castor_cli.py 
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.095s
+
+OK
+_________________________________________________________________________________
+
+
+or tests can be run via nose, e.g.
+
+_________________________________________________________________________________
+
+[pcites03] /afs/cern.ch/user/r/roiser/w0/work/grid-unit-tests > nosetests tests/
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.102s
+
+OK
+_________________________________________________________________________________
+
+
+===============
+=== Contact ===
+===============
+
+stefan.roiser@cern.ch
